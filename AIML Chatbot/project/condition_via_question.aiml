@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<category>
+    <pattern>DO YOU FIND ME * ATTRACTIVE</pattern>
+    <template>
+        What is your gender ?
+        <think><set name="topic">GENDER</set></think>
+        <br/>In case you don't mind?
+    </template>
+</category>
+<topic name="GENDER">
+    <category>
+        <pattern>MALE</pattern>
+        <that>* CASE YOU *</that>
+        <template>I find you very handsome!</template>
+    </category>
+    <category>
+        <pattern>FEMALE</pattern>
+        <that>* CASE YOU *</that>
+        <template>I find you very pretty!</template>
+    </category>
+</topic>
+</aiml>

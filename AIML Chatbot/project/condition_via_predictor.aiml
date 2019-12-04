@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+    <category>
+        <pattern>HI</pattern>
+        <template>
+              <condition name="stress">
+                  <li value="yes">Relax, don't worry!</li>
+                  <li value="no">The world is perfect again!</li>
+                  <li>Hi there!</li>
+              </condition>
+        </template>
+    </category>
+</aiml>
