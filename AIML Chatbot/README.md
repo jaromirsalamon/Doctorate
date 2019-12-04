@@ -49,4 +49,4 @@ Uses ``project\condition_via_think.aiml`` AIML dialogue and it is not implemente
 
 ## Conclusion
 The first example **Condition via question** is typical __In Foreground__ influence, i.e., it is a part of the conversation. The user needs to provide such information explicitly.
-On the other hand, the second example *Condition via predictor* is typical __On Background__ influence, i.e., the user is not aware of providing influencing data or signal which is collected independently.
+On the other hand, the second example **Condition via predictor** is typical __On Background__ influence, i.e., the user is not aware of providing influencing data or signal which is collected independently.
