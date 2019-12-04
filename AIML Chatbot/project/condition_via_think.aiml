@@ -4,7 +4,7 @@
       <pattern> HOW ARE YOU FEELING TODAY </pattern>
 
       <template>
-         <think><set name = "state"> happy</set></think>
+         <think><set name = "state">happy</set></think>
          <condition name = "state" value = "happy">
             I am happy!
          </condition>
